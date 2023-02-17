@@ -1,0 +1,25 @@
+<resources>
+  <string name="app_name">GpsLocator</string>
+
+  // Main Activity
+  <string name="ma_no_permissions_toast">No permissions</string>
+  <string name="ma_permissions_granted_toast">Great!</string>
+  <string name="ma_service_stopped_toast">Stopped Service</string>
+  <string name="ma_service_started_toast">Started Service</string>
+  <string name="ma_start_service">Start Service</string>
+  <string name="ma_stop_service">Stop Service</string>
+
+  // Location Service
+  <string name="ls_notification_title">Location Service</string>
+  <string name="ls_notification_description">Sending current location</string>
+
+  // No permissions
+  <string name="np_title">You have not gave the needed permissions</string>
+  <string name="np_description">Close the app and give them at the beginning</string>
+
+  // General
+  <string name="username">Username</string>
+  <string name="password">Password</string>
+  <string name="sign_in">Sign In</string>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:gravity="center"
+  android:padding="20dp"
+  tools:context=".activities.MainActivity">
+
+  <androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/ma_btn_start_location_service"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:drawableStart="@drawable/location_white"
+    android:background="@drawable/ma_btn_start_service"
+    android:layout_marginBottom="20dp" />
+
+  <TextView
+    android:id="@+id/ma_tv_location_action"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/ma_start_service"
+    android:gravity="center"
+    style="@style/title1" />
+
+</LinearLayout>
